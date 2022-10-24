@@ -1,0 +1,57 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #eeebff;
+}
+.flash-messages {
+  display: flex;
+}
+
+.flash-box__right {
+  width: 30rem;
+  height: auto;
+  background-color: white;
+  border-radius: 1rem;
+  border: 1px solid #eee;
+  margin: auto;
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+.flash-box__right p {
+  text-align: center;
+  font-size: 1.3rem;
+  opacity: 0.7;
+  padding: 1.5rem;
+}
+.flash-images {
+  height: 40%;
+}
+.flash-messages__titles {
+  height: 60%;
+}
+.flash-images img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+}
+.btn {
+  display: block;
+  margin: auto;
+  font-size: 1.8rem;
+  border: 1px;
+  border-radius: 3rem;
+  padding: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgb(1, 190, 1);
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
